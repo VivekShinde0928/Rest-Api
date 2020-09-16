@@ -1,4 +1,4 @@
-from app_using_RESTful-Flask_JWT import app
+from app import app
 from db import db
 
 db.init_app(app)
